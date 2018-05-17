@@ -16,7 +16,7 @@ if (!$retval) {
 
 mysqli_select_db($conn,'myDB');
 
-//Crete Tabele
+//Create Table
 $sql = "CREATE TABLE IF NOT EXISTS libusers (
         id INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, 
         firstname VARCHAR(256) NOT NULL,
