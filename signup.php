@@ -56,7 +56,7 @@
 				                        	<input type="password" name="form-password" placeholder="Password..." class="form-password form-control" id="form-password">
 				                        </div>
                                           <div class="form-group">  
-                                            <p class="bg-info">Please select your preferred user method:</p>        
+                                            <p class="bg-info">Please select your preferred user role:</p>        
                                          <div class="form-check">
                                           <input class="form-check-input" type="radio" name="radio" id="exampleRadios1" value="Admin" checked>
                                           <label class="form-check-label text-primary" for="Admin">

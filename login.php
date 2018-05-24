@@ -48,6 +48,7 @@
 				                        	<label class="sr-only" for="form-password">Password</label>
 				                        	<input type="password" name="form-password" placeholder="Password..." class="form-password form-control" id="form-password">
 				                        </div>
+                                        
 				                        <button type="submit" name="submit" class="btn">Log in!</button>
 
 				                    </form>

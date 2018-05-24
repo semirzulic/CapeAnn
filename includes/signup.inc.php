@@ -13,6 +13,7 @@ if (isset($_POST['submit'])) {
 
      	
     // Error handlers
+
 	// Check for empty fields
 	if (empty($first) || empty($last) || empty($email) || empty($pwd)) {
 		header("Location: ../signup.php?signup=empty");
@@ -25,7 +26,7 @@ if (isset($_POST['submit'])) {
 			} else {
 				//Check if email is valid
 				if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-					header("Location: ../signup.php?signup=email");
+					header("Location: ../signup.php?signup=invalidemail");
 					exit();
 				} else {
 					$sql = "SELECT * FROM libusers WHERE email='$email'";

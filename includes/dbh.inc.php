@@ -8,6 +8,8 @@ if (!$conn) {
     die('SERVER CONNECTION FAILED...\n: ' . mysqli_error());
 }
 
+
+// Create Database
 $sql    = 'CREATE DATABASE IF NOT EXISTS myDB';
 $retval = mysqli_query( $conn, $sql);
 if (!$retval) {
