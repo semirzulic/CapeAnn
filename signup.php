@@ -59,13 +59,13 @@
                                             <p class="bg-info">Please select your preferred user role:</p>        
                                          <div class="form-check">
                                           <input class="form-check-input" type="radio" name="radio" id="exampleRadios1" value="Admin" checked>
-                                          <label class="form-check-label text-primary" for="Admin">
+                                          <label class="form-check-label  " for="Admin">
                                             Admin
                                           </label>
                                         </div>
                                         <div class="form-check">
                                           <input class="form-check-input" type="radio" name="radio" id="Client" value="Client">
-                                          <label class="form-check-label text-primary" for="Client">
+                                          <label class="form-check-label " for="Client">
                                             Client
                                           </label>
                                         </div>
@@ -76,13 +76,13 @@
                                              
 				                        <button type="submit" name="submit" class="btn">Sign me up!</button>
 				                    </form>
-                                    <div class="bot-content">
-                                        <div class="text">
-                                            <h3 class="bg-info">Already have an account? </h3>
-                                            <p><a href="login.php"><strong>Log in here !</strong></a></p>
+                                        <div class="bot-content">
+                                            <div class="text">
+                                                <h3 class="bg-info">Already have an account? </h3>
+                                                <p><a href="login.php"><strong>Log in here !</strong></a></p>
+                                            </div>
+                                        
                                         </div>
-                                    
-                                    </div>
 			                    </div>
                         	</div>
                         	

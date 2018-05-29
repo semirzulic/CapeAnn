@@ -37,7 +37,8 @@
 	                        			<i class="fa fa-pencil"></i>
 	                        		</div>
 	                            </div>
-	                            <div class="form-bottom">
+	                           
+                                <div class="form-bottom">
 				                    <form role="form" action="includes/login.inc.php" method="post" class="registration-form">
 				                    
 				                        <div class="form-group">
@@ -62,6 +63,7 @@
                                     
                                     </div>
 			                    </div>
+                                
                         	</div>
                         	
                         </div>

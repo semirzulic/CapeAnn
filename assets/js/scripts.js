@@ -1,4 +1,5 @@
 
+
 jQuery(document).ready(function() {
 	
     /*
@@ -48,5 +49,26 @@ jQuery(document).ready(function() {
     	
     });
     
+// Fade ins
+    $("button.btn.btn-danger.button").fadeIn("slow");
+
+    $(".form-bottom form button.btn").fadeIn("slow");
+     $("button.btn.btn-warning ").fadeIn("slow");
+     $("strong.bg-primary").fadeIn("slow");
+     $("button.btn.btn-dark").fadeIn("slow");
+
+    
+// Animate search field
+     
+    $("td.bg-warning.srch").animate({
+            left: '250px',
+            
+            height: '100px',
+            width: '100px'
+        });
+
+
+
     
 });
+
